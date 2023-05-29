@@ -112,6 +112,25 @@ public class HelloYou {
 		System.out.println("Hello World");
 		System.out.println("Today is a great day to code!");
 
+	- This program will print each statement on a new line like so:
+
+		Hello World
+		Today is a great day to code!
+
+	- We also can output information using System.out.print(). Notice that we’re using print(), not println(). Unlike System.out.println(), this type of print statement outputs 
+	everything on the same line. For example:
+
+		System.out.print("Hello ");
+		System.out.print("World");
+
+	The above code will have the following output:
+
+		Hello World
+
+	- If you use println() the cursor is moved to the next line. If you use print() the cursor stays on the same line.
+
+	
+
 
 
 

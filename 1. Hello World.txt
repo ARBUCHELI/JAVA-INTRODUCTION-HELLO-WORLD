@@ -1,0 +1,125 @@
+1. HELLO WORLD
+--------------
+
+* Introduction to Java
+--------------------
+	- Sun Microsystems. 1995.
+	- Simple.
+	- Portable.
+	- Secure.
+	- Robust.
+
+	- Released 20 years ago but still one of the most popular programming languages today.
+	
+	- Java Virtual Machine: Ensures the same Java code can be run on different operating systems and platforms. "Write once, run everywhere".
+
+	class HelloWorld {                                                                   -----------> UNIX
+		public static void main(String[] args) {                                     |
+			System.out.println("Hello World!");   -------> Compiler -------> JVM |----------> Windows API
+		}                                                                            |
+	}                                                                                    ----------> MacOS
+
+	Instructions
+	------------
+	1. You’re looking at a computer program written in Java.
+
+	Run the code in the text editor to see what is printed to the screen.
+
+===================================================================================================================================================================
+
+HelloWorld.java
+---------------
+public class HelloWorld {
+    public static void main(String[] args) {
+      System.out.println("Hello World!");
+    }
+  }
+
+==================================================================================================================================================================
+
+* Hello Java File!
+------------------
+	- Java files have a .java extension.
+	
+	- public class HelloWorld {
+ 
+	  }
+
+	- Each file has one primary class named after the file. Our class name: HelloWorld and our file name: HelloWorld. Every word is capitalized.
+
+	- Inside the class we had a main() method which lists our program tasks:
+
+	- public static void main(String[] args) {
+ 
+	  }	
+
+	- public, static, and void are syntax we’ll learn about in future lessons. String[] args is a placeholder for information we want to pass into our program. This syntax is 
+	necessary for the program to run but more advanced than we need to explore at the moment.
+
+	- Our program also displayed the text "Hello World" on the screen. This was accomplished using a print statement:
+
+		System.out.println("Hello World");	
+
+	Instructions
+	------------
+	1. The text editor has a file, HelloYou.java, that contains a HelloYou class with a main() method.
+
+	Inside main(), add a statement which prints Hello someName!, with your name replacing someName. Make sure to end the statement with a semicolon.
+
+	For example, if your name were “Maria,” the program would print Hello Maria!.
+
+	Checkpoint 2 Passed
+
+	Hint
+	----
+	Let’s say we want to print Howdy World!.
+
+	Place that message inside double quotes: "Howdy World!".
+
+	Then place the quoted message inside the parentheses of System.out.println().
+
+	System.out.println("Howdy World!");
+	The println has the letter l as in “laser”, not the number 1.
+
+	You must use double quotes!
+
+HelloYou.java
+-------------
+public class HelloYou {
+  public static void main(String[] args) {
+    System.out.println("Hello Andres!");
+  }
+}
+
+=================================================================================================================================================================
+
+* Print Statements
+------------------
+	- Print statements output information to the screen (also referred to as the output terminal). 
+	- System.out.println("Hello World");
+
+		. System: built-in Java class that contains useful tools for our programs.
+		---------
+
+		. out: short for output.
+		------
+
+		. println: is short for "print line".
+		----------
+
+	- We can use System.out.println() whenever we want the program to create a new line on the screen after outputting a value:
+
+		System.out.println("Hello World");
+		System.out.println("Today is a great day to code!");
+
+
+
+
+
+
+
+
+
+
+
+	

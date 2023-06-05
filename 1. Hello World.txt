@@ -216,7 +216,68 @@ public class HelloYou {
 
 =================================================================================================================================================================
 
+* Compilation: Creating Executables
+-----------------------------------
+	Here’s a full compilation cycle as an example:
 
+	// within the file: Welcome.java
+	public class Welcome {
+  		public static void main(String[] args) {
+    			System.out.println("Welcome to Codecademy's Java course!");
+  		}
+	}
+
+	We have one file: Welcome.java. We compile with the command:
+
+	javac Welcome.java
+
+	The terminal shows no errors, which indicates a successful compilation.
+
+	We now have two files:
+
+		1. Welcome.java, our original file with Java syntax.
+
+		2. Welcome.class, our compiled file with Java bytecode, ready to be executed by the Java Virtual Machine.
+
+	We can execute the compiled class with the command:
+
+		java Welcome
+
+	The following is printed to the screen:
+
+		Welcome to Codecademy's Java course!
+
+===========================================================================================================================================================
+
+* Java Review: Putting it All Together
+--------------------------------------
+	- Guidelines for how to write Java program:
+	
+		. Java programs have at least one class and one main() method.
+			. Each class represents one real-world idea.
+			. The main() method runs the tasks of the program.
+
+		. Java comments add helpful context to human readers.
+
+		. Java has whitespace, curly braces, and semicolons.
+			. Whitespace is for humans to read code easily.
+			. Curly braces mark the scope of a class and method.
+			. Semicolons mark the end of a statement.
+
+		. Java is a compiled language.
+
+		. Compiling catches mistakes in our code.
+
+		. Compilers transform code into an executable class.
+
+Review.java
+-----------
+public class Review {
+  public static void main(String[] args) {
+    //The main method executes the tasks of the class
+    System.out.print("My first Java program from scratch!");
+  }
+}
 
 
 
